@@ -1,0 +1,127 @@
+﻿body {
+    background-image: url('../img/okxqpbgzsxq51.png');
+}
+*{
+    text-decoration:none;
+}
+.navbar{
+    background: white;
+    font-family:Calibri;
+    padding-right:15px;
+    padding-left:15px;
+    padding:15px;
+}
+.navdiv{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight:600;
+    color: black;
+}
+li{
+    list-style:none;
+    display:inline-block;
+}
+li a{
+    color:black;
+    font-size:18px;
+    font-weight:bold;
+    margin-right:25px;
+}
+button {
+    background-color: lightskyblue;
+    margin-left: 25px;
+    border-radius: 25px;
+    padding: 20px;
+    width: 100px;
+   transition: 0.6s;
+}
+    button a {
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+    }
+.headline {
+    text-align: center;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    font-size: 70px;
+    background-color: white;
+}
+.info{
+    text-align:center;
+    font-size:40px;
+    font-style:italic;
+    
+}
+.selection{
+    width:550px;
+}
+.hover{
+    text-align:center;
+}
+.copyright {
+    padding: 0;
+    margin: 0;
+    left: 100%;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+.wrapper{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.image{
+    width:1000px;
+    position:relative;
+    top:-25%;
+}
+img{
+    width:100%;
+    display:block;
+    margin:auto;
+}
+.content{
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    position:absolute;
+    background:rgba(0,0,0,0.6);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    opacity:0;
+    transition:0.6s;
+}
+.content:hover{
+    opacity:1;
+}
+.content h1{
+    font-size:45px;
+    color:white;
+    margin-bottom:15px;
+}
+.content p{
+    font-size:19px;
+    color:white;
+}
+.content > *{
+    transform:translateY(25px);
+    transition:transform 0.6s;
+}
+    .content:hover > * {
+        transform: translateY(0px);
+    }
